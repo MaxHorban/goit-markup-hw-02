@@ -95,9 +95,9 @@ body {
     color: var(--main-txt-color);
 }
 
-/* .accent {
+.accent {
     color: var(--accent-color);
-} */
+}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -222,4 +222,45 @@ body {
 .address-contact-link {
     line-height: calc(24/14);
     color: var(--alfa-txt-color);
+}
+
+.address-link:hover,
+.address-link:focus,
+.address-contact-link:hover,
+.address-contact-link:focus {
+    color: var(--accent-color);
+}
+
+/* Portfolio */
+
+/* Filter btn */
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    color: var(--main-txt-color);
+    background-color: var(--light-bg-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--light-txt-color);
+    background-color: var(--accent-color);
+}
+
+
+/* Portfoli content */
+
+.portfolio-uppertitle {
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: calc(30/16);
+    color: var(--secondary-txt-color);
 }
